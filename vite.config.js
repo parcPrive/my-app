@@ -9,4 +9,5 @@ export default defineConfig({
     port: 5173, // 포트 번호 (원하면 바꿀 수 있음)
     cors: true, // 다른 출처(CORS)에서도 접근 가능하게
   },
+  base: "/my-app",
 });
